@@ -28,7 +28,7 @@ function App() {
       <h1 className="text-4xl text-white flex justify-center font-semibold ">
         BMI-Calculater
       </h1>
-      <h2>{Height}</h2>
+      {/* <h2>{Height}</h2> */}
       <div className="flex flex-col  justify-center border border-blue-600 text-white font-sembold pl-52 pr-52">
         <label htmlFor="weight" className="block mb-2">
           Weight (kg)
