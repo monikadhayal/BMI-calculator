@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AppComponent from "./AppComponet.jsx";
-
+import Massage from "./Massage.jsx";
 function App() {
   const [Height, setHeight] = useState(0);
   const [Weight, setWeight] = useState(0);
@@ -90,6 +90,7 @@ function App() {
        {/* {bata na kutti kamini} */}
       </div>
       <AppComponent/>
+      <Massage/>
     </div>
   );
 }
